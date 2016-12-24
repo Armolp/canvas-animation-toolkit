@@ -104,6 +104,8 @@ class canvasAnimation{
 		this.container.style.position = "absolute";
 		this.container.style.top = 0;
 		this.container.style.left = 0;
+
+		this.container.parentElement.style.overflow = "hidden";
 	}
 
 	setSize(width, height) {
